@@ -10,14 +10,14 @@ function buildTable(data) {
 
     // Next ,loop through each object in the data
     // and append a row and cells for each value in the row
-    data.forEach((datatrow) => {
+    data.forEach((dataRow) => {
         // Append a row to the table body
         let row = tbody.append("tr");
 
         // Loop through each field in the dataRow and add
         // each value as a table cell (td)
-        Object.values(datarow).forEach((val) => {
-            let cell = row.append("");
+        Object.values(dataRow).forEach((val) => {
+            let cell = row.append("td");
             cell.text(val);
             }
         );
@@ -36,8 +36,7 @@ function handleClick() {
         // Apply 'filter' to the table data to only keep the
         // rows where the 'datetime' value matches the filter value
         filteredData = filteredData.filter(row => row.datetime === date);
-    }
-
+    };
     // Rebuild the table using the filtered data
     // @NOTE: if no date was entered, then filteredData will
     // just be the original tableData
