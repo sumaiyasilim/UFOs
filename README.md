@@ -4,10 +4,12 @@ The purpose of this analysis is to create a webpage that could provide more in-d
 
 ## Results
 To perform a search, the user would type into one or multiple of the boxes to filter the data. For example, if they wanted to get the UFO sightings in the United States, then more specifically in Florida, they would type “us” into the “Enter a Country” box, then type “fl” in the “Enter a State” box. The results would look like the image below:
+
 <img width="951" alt="ufo" src="https://user-images.githubusercontent.com/64383146/179857464-4f878e29-13e3-4a2e-ae6d-a53f756dbee3.png">
 
 ## Summary
 Overall, this website works great for the searches the users would want to do, the drawback about the search boxes is that they are case sensitive. So, if a user uses uppercase for any of the searches, then the table would show up blank like the image below where the input in the state box has a capitalized letter:
+
 <img width="947" alt="ufo 2" src="https://user-images.githubusercontent.com/64383146/179859184-5f0927a3-a25c-4ebb-9dca-1b2650e0477a.png">
 
 ### Additional Recommendations
