@@ -13,6 +13,6 @@ Overall, this website works great for the searches the users would want to do, t
 <img width="947" alt="ufo 2" src="https://user-images.githubusercontent.com/64383146/179859184-5f0927a3-a25c-4ebb-9dca-1b2650e0477a.png">
 
 ### Additional Recommendations
--	The first recommendation would address the capitalization issue. An improvement would include the search bars allowing for capitalization without affecting the results
+-	In order to further develop the website, we would be to add an extra filter box that would allow the users to search for specific keywords in the comment section, allowing them to pinpoint specific topics 
 
 -	The second recommendation would be to give the users a drop-down bar in the search boxes to allow them to see what search options within each filter that they have. This would allow for a more seamless searching experience. 
